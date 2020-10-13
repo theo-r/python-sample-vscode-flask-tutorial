@@ -63,7 +63,6 @@ stages:
       inputs:
         codeCoverageTool: Cobertura
         summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/coverage.xml'
-        reportDirectory: '$(System.DefaultWorkingDirectory)/**/htmlcov'
 
     - task: ArchiveFiles@2
       displayName: 'Archive files'
